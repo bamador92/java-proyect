@@ -10,8 +10,5 @@ public class Empleado {
            teclado = new Scanner(System.in);
            System.out.println("ingrese el nombre del empleado: ");
 
-
-
-
        }
     }
