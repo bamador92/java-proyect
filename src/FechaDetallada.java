@@ -1,17 +1,21 @@
 public class FechaDetallada extends Fecha
 {
     private static String meses[] = {"Enero"
-                                    ,"Febrero"
-                                    ,"Marzo"
-                                    ,"Abril"
-                                    ,"Mayo"
-                                    ,"Junio"
-                                    ,"Julio"
-                                    ,"Agosto"
-                                    ,"Septiembre"
-                                    ,"Octubre"
-                                    ,"Noviembre"
-                                    ,"Diciembre"};
+            ,"Febrero"
+            ,"Marzo"
+            ,"Abril"
+            ,"Mayo"
+            ,"Junio"
+            ,"Julio"
+            ,"Agosto"
+            ,"Septiembre"
+            ,"Octubre"
+            ,"Noviembre"
+            ,"Diciembre"};
+
+    public FechaDetallada(String s) {
+        super(s);
+    }
 
     public FechaDetallada() {
 

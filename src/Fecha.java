@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 public class Fecha {
     private int dia;
@@ -19,7 +18,7 @@ public class Fecha {
         int pos1 = s.indexOf('/');
 
         //Buscamos la ultima ocurrencia de '/'
-        int pos2 = s.indexOf('/');
+        int pos2 = s.lastIndexOf('/');
 
         //Procesamos el dia
         String sDia = s.substring(0, pos1);
@@ -35,7 +34,11 @@ public class Fecha {
 
     }
 
-    public Fecha(){
+    public Fecha(int dia, int mes, int anio) {
+
+    }
+
+    public Fecha() {
 
     }
 
