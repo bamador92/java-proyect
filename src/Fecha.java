@@ -4,12 +4,12 @@ public class Fecha {
     private int mes;
     private int anio;
 
-    /*public Fecha(int d, int m, int a)
+    public Fecha(int dia, int mes, int anio)
     {
-        dia = d;
-        mes = m;
-        anio = a;
-    }*/
+        dia = dia;
+        mes = mes;
+        anio = anio;
+    }
 
     //Constructor fecha que acepte el formato dd/mm/aaaa
     public Fecha(String s)
@@ -31,10 +31,6 @@ public class Fecha {
         //Procesamos el anio
         String sAnio = s.substring(pos2+1);
         anio = Integer.parseInt(sAnio);
-
-    }
-
-    public Fecha(int dia, int mes, int anio) {
 
     }
 
