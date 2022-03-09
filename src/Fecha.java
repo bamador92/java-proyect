@@ -62,7 +62,8 @@ public class Fecha {
 
     //Setter para el atributo dia
     public void setDia(int d){
-        //Asignamos el valor del parametro a la variable dia
+        //Asignamos el valor del parametr
+        // o a la variable dia
         dia = d;
     }
 
